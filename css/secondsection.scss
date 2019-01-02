@@ -1,0 +1,70 @@
+// Second section 
+
+.secondSection {
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .secondSectionMain {
+        width: 60%;
+        height: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        .secondSectionTitle {
+            font-size: 200%;
+            margin-top: 40px;
+            margin-bottom: 20px;
+
+        }
+        
+    }
+    .secondSectionSteps {
+        margin-top: 15px;
+        padding: 20px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: rgb(234,234,234);
+        div {
+            margin: 30px 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            p {
+                text-align: center;
+                margin: 20px 0;
+            }
+            .firstP:nth-child(3) {
+                margin-top: 10px;
+            }
+            .firstP:after {
+                margin-top: 20px;
+                content: "";
+                display: block;
+                width: 100%;
+                border-bottom: 1px solid black;
+                position: relative;
+                bottom: 0;
+                
+            }
+           
+        }
+    }
+}
+
+.secondSectionButton {
+    width: 30%;
+    height: 10%;
+    margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    text-transform: uppercase;
+    font-size: 150%;
+    font-weight: 300;
+    cursor: pointer;
+}
