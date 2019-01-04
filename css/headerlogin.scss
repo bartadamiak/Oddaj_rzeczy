@@ -1,0 +1,111 @@
+.headerLogin {
+    width: 100%;
+    height: 500px;
+    margin-bottom: 0;
+    
+}
+
+.headerLoginMain {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    flex-direction: column;
+    li {
+        list-style-type: none;
+        margin: 0 10px;
+        cursor: pointer;
+        }
+}
+
+.headerLoginLog, .headerLoginNavi {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 50px;
+    width: 100%;
+}
+
+.headerLoginLog {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    li:last-child {
+        border: 1px solid orange;
+    }
+    li {
+        padding: 5px;
+        font-size: 70%;
+        font-weight: 400;
+        color: gray;
+    }
+    
+}
+.headerLoginNavi {
+    li {
+        padding: 10px;
+        font-weight: 400;
+        color: dark;
+        font-size: 80%;
+        color: gray;
+    }
+    li:first-child {
+        border: 1px solid black;
+    }
+}
+
+.headerLoginTitle {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    .headerLoginTitleText {
+        font-size: 150%;
+        margin-top: 100px;
+        margin-bottom: 20px;
+    }
+}
+
+.headerLoginForm {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    input {
+        outline: none;
+        border: none;
+        font-size: 100%;
+        border-bottom: 1px solid gray;
+        margin: 20px;
+        height: 50px;
+        width: 400px;
+    }
+    .remind {
+        cursor: pointer;
+        font-size: 80%;
+        color: gray;
+        text-align: right;
+        position: absolute;
+        right: 450px;
+        top: 460px;
+    }
+}
+
+.buttons {
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    .loginBorder {
+        border: solid black 1px;
+    }
+    button {
+        cursor: pointer;
+        outline: none;
+        border: none;
+        background: none;
+        width: 100px;
+        height: 50px;
+        font-size: 100%;
+    }
+}

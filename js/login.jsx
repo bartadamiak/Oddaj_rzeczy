@@ -1,23 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import decoration from '../images/decoration.png';
+import LogScreen from './Logscreen.jsx'
 
 
-export default class LogScreen extends React.Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            log: ['Zaloguj', 'Zarejestruj'],
-            navi: ['Start', 'O co chodzi?', 'O nas', 'Fundacje i organizacje', 'Kontakt'],
-        }
-    }
-    render() {
-        return (
-        <>
-        <div>Ekran logowania</div>
-        </>
-        )
-    }
-}
+
 
 export default class Login extends React.Component {
     constructor(props) {

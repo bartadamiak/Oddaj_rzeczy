@@ -14,7 +14,7 @@ import {
     } from 'react-router-dom';
 
 import Main from './main.jsx';
-// import Login from './login.jsx';
+import Login from './login.jsx';
 
 
 
@@ -34,7 +34,7 @@ class App extends React.Component {
             <HashRouter>
                     <div>
                     <Route exact path='/' component={Main} />
-                    {/* <Route path='/login' component={Login} /> */}
+                    <Route path='/login' component={Login} />
                     
                     
                     </div>

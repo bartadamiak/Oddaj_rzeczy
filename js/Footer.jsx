@@ -15,7 +15,13 @@ export default class Footer extends React.Component {
                     <img src={decoration}></img>
                     <div className='footerTextForm'>
                         <form className='form'>
-                        
+                            <div className="formTitle">Formularz kontaktowy</div>
+                            <div className="formFirstLine">
+                                <input id="name" type="text" placeholder="Imię"/>
+                                <input id="email" type="email" placeholder="@"/>
+                            </div>
+                            <input id="message" type="text" placeholder="Wiadomość"/>
+                            <button>Wyślij</button>
                         
                         </form>    
                     
