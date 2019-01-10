@@ -1,6 +1,7 @@
 import React from 'react';
-import decoration from '../images/decoration.png';
-import about from '../images/about.jpg';
+import decoration from '../../images/decoration.png'
+import about from '../../images/about.jpg';
+
 
 export default class AboutSection extends React.Component {
     constructor(props) {

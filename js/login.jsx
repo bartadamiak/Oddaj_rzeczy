@@ -1,6 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import decoration from '../images/decoration.png';
 import LogScreen from './Logscreen.jsx'
 
 

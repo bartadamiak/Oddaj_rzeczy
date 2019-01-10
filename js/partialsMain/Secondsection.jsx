@@ -1,5 +1,6 @@
 import React from 'react';
-import decoration from '../images/decoration.png';
+import decoration from '../../images/decoration.png'
+
 
 export default class SecondSection extends React.Component {
     constructor(props) {

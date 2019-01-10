@@ -15,6 +15,7 @@ import {
 
 import Main from './main.jsx';
 import Login from './login.jsx';
+import GiveBack from './giveback.jsx';
 
 
 
@@ -35,6 +36,7 @@ class App extends React.Component {
                     <div>
                     <Route exact path='/' component={Main} />
                     <Route path='/login' component={Login} />
+                    <Route path='/oddaj' component={GiveBack}/>
                     
                     
                     </div>

@@ -1,0 +1,29 @@
+.firstSectionGB {
+    width: 100%;
+    height: 120px;
+    background-color: rgb(255,198,0);
+    margin: 0;
+    display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: flex-start;
+    align-content: center;
+    div {
+        margin-left: 80px;
+        
+    }
+    div:nth-child(1) {
+        font-size: 120%;
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+    
+}
+
+.about {
+    font-size: 80%;
+    font-weight: 400;
+    
+    
+}

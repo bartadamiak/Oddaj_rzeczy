@@ -1,5 +1,5 @@
 import React from "react";
-import decoration from '../images/decoration.png';
+import decoration from '../../images/decoration.png';
 
 
 export default class AboutNextSection extends React.Component {

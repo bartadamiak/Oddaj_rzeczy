@@ -1,11 +1,31 @@
-.header {
+@mixin headerStyle(){
     width: 100%;
     height: 500px;
-    background-image: url('../images/header_start_img.jpg');
     background-position: contain;
     background-size: 60%;
     background-repeat: no-repeat;
     margin-bottom: 0;
+
+}
+@mixin naviStyle(){
+    li {
+        padding: 10px;
+        font-weight: 300;
+        color: dark;
+    }
+    li:first-child {
+        border: 1px solid black;
+    }
+}
+
+
+
+// -----------------------------------------------------------------------------------------
+
+.header {
+    @include headerStyle();
+    background-image: url('../images/header_start_img.jpg');
+    
     
 }
 
@@ -44,14 +64,8 @@
 }
 
 .headerNavi {
-    li {
-        padding: 10px;
-        font-weight: 400;
-        color: dark;
-    }
-    li:first-child {
-        border: 1px solid black;
-    }
+    @include naviStyle();
+    
 }
 
 .headerMainElement {
