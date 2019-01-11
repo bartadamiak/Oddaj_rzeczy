@@ -1,5 +1,6 @@
 import React from 'react';
 import decoration from '../images/decoration.png';
+import {Link} from 'react-router-dom';
 
 export default class LogScreen extends React.Component {
     constructor(props) {
@@ -11,23 +12,7 @@ export default class LogScreen extends React.Component {
         }
     }
 
-    handleClick = (e) => {
-        e.preventDefault;
-        if (e.target.innerText === "Załóż konto") {
-            e.target.classList.add('loginBorder');
-            document.querySelector('#log').classList.remove('loginBorder');
-            this.setState({
-                action: "Załóż konto"
-            })
-        }
-        if (e.target.innerText === "Zaloguj się") {
-            e.target.classList.add('loginBorder');
-            document.querySelector('#register').classList.remove('loginBorder');
-            this.setState({
-                action: "Zaloguj się"
-            })
-        }
-    }
+    
 
     render(){
 
@@ -56,8 +41,8 @@ export default class LogScreen extends React.Component {
                             <input type="password" id="password" placeholder="Hasło"></input>
                             <div className="remind">Przypomnij hasło</div>
                             <div className="buttons">
-                                <button onClick={this.handleClick} id="register">Załóż konto</button>
-                                <button onClick={this.handleClick} id="log" className="loginBorder">Zaloguj się</button>
+                                <button id="register"><Link onClick={this.handleClick} to="/oddaj">Załóż konto</Link></button>
+                                <button id="log" className="loginBorder"><Link onClick={this.handleClick} to="/oddaj">Zaloguj się</Link></button>
                             </div>
                         </form>
                     </div>

@@ -50,7 +50,7 @@ export default class Header extends React.Component {
                         <div className="headerMainTitle"><p>Zacznij Pomagać!</p> <p>Oddaj niechciane rzeczy w zaufane ręce</p>
                         <img src={decoration}></img></div>
                         <div className="headerMainBoxes">
-                            <div className="headerMainBox1"><p>oddaj</p><p>rzeczy</p></div>
+                            <div className="headerMainBox1"><Link to="/oddaj"><p>oddaj</p><p>rzeczy</p></Link></div>
                             <div className="headerMainBox2"><p>zorganizuj</p> <p>zbiórkę</p></div>
                         
                         

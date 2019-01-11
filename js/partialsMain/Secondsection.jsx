@@ -1,5 +1,6 @@
 import React from 'react';
 import decoration from '../../images/decoration.png'
+import {Link} from 'react-router-dom';
 
 
 export default class SecondSection extends React.Component {
@@ -21,7 +22,7 @@ export default class SecondSection extends React.Component {
 
                     
                     </div>
-                    <button className="secondSectionButton">załóż konto</button>
+                    <button className="secondSectionButton"><Link to="/login">załóż konto</Link></button>
                 
                 
                 </div>
