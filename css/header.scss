@@ -59,6 +59,11 @@
         font-size: 70%;
         font-weight: 400;
         color: gray;
+        a {
+            color: inherit;
+            text-decoration: none;
+        }
+
     }
     
 }
@@ -116,6 +121,10 @@
         border: solid 1px black;
         text-transform: uppercase;
         cursor: pointer;
+        a {
+            color: inherit;
+            text-decoration: none;
+        }
     }
 
 }
