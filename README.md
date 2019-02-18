@@ -1,3 +1,1 @@
-Demo:
-
-http://bit.do/oddaj
+http://bit.do/oddaj_rzeczy
