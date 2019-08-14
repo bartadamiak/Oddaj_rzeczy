@@ -1,1 +1,1 @@
-http://bit.do/oddaj_rzeczy
+http://hosting1907205.online.pro/giveback
